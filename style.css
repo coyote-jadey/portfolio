@@ -1,6 +1,122 @@
+:root {
+  --color-accent: oklch(48% 0.12 305);
+  --color-border: oklch(80% 3% 305);
+  accent-color: var(--color-accent);
+  color: #322438;
+  background: #fdfcfe;
+}
+* { box-sizing: border-box; }
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
-  font: 100%/1.5 system-ui;
+  font: 100%/1.5 system-ui, sans-serif;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 1em 1em 3em;
+  overflow-wrap: break-word;
+}
+img { max-width: 100%; height: auto; }
+a { color: var(--color-accent); text-underline-offset: 0.2em; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.1; text-wrap: balance; }
+h1 { font-size: clamp(2.5rem, 8vw, 4rem); margin-block: 0.75em 0.5em; }
+
+/* Equal-width navigation links */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  border-bottom: 1px solid var(--color-border);
+}
+nav a {
+  flex: 1;
+  padding: 0.5em;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+nav a.current {
+  border-bottom: 0.4em solid var(--color-border);
+  padding-bottom: 0.1em;
+}
+nav a:hover {
+  border-bottom: 0.4em solid var(--color-accent);
+  padding-bottom: 0.1em;
+  background: oklch(95% 0.025 305);
+}
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+
+/* Labels share the form columns through subgrid */
+input, textarea, button { font: inherit; }
+form {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1em;
+}
+form label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  align-items: baseline;
+}
+input, textarea {
+  min-width: 0;
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid var(--color-border);
+  border-radius: 0.25em;
+  background: white;
+  color: inherit;
+}
+textarea { resize: vertical; }
+form button {
+  grid-column: 1 / -1;
+  padding: 0.65em 1em;
+  border: 0;
+  border-radius: 0.25em;
+  background: var(--color-accent);
+  color: white;
+  cursor: pointer;
+}
+form button:hover { background: oklch(40% 0.1 305); }
+
+/* Project headings, images, and descriptions align across cards */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(15em, 100%), 1fr));
+  gap: 1em;
+}
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+.projects h2, .projects p { margin: 0; }
+.projects img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 0.25em;
+  background: #f1edf5;
+}
+
+/* Resume hierarchy and spacing */
+.resume header { padding-bottom: 1em; border-bottom: 3px solid var(--color-accent); }
+.resume section { margin-block: 2em; }
+.resume h2 {
+  color: var(--color-accent);
+  font-size: 1.5em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--color-border);
+}
+.resume article { margin-block: 1.5em; }
+.resume h3 { font-size: 1.1em; line-height: 1.35; margin-bottom: 0.4em; }
+.resume p { margin-block: 0.5em; }
+.resume ul { padding-left: 1.25em; }
+.resume li + li { margin-top: 0.4em; }
+.resume time { color: #65536a; font-size: 0.9em; font-weight: normal; }
+
+@media (max-width: 35em) {
+  nav a { flex-basis: 30%; }
+  form { grid-template-columns: minmax(0, 1fr); }
+  form label { gap: 0.35em; }
 }
