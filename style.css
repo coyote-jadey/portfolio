@@ -1,16 +1,17 @@
 :root {
-  --color-accent: oklch(48% 0.12 305);
-  --color-border: oklch(80% 3% 305);
+  color-scheme: light dark;
+  --color-accent: light-dark(oklch(48% 0.12 305), oklch(78% 0.12 305));
+  --color-border: oklch(50% 10% 305 / 40%);
   accent-color: var(--color-accent);
-  color: #322438;
-  background: #fdfcfe;
+  color: CanvasText;
+  background: Canvas;
 }
 * { box-sizing: border-box; }
 body {
   font: 100%/1.5 system-ui, sans-serif;
   max-width: 100ch;
   margin-inline: auto;
-  padding: 1em 1em 3em;
+  padding: 4em 1em 3em;
   overflow-wrap: break-word;
 }
 img { max-width: 100%; height: auto; }
@@ -39,12 +40,18 @@ nav a.current {
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
-  background: oklch(95% 0.025 305);
+  background: color-mix(in oklch, var(--color-accent), Canvas 85%);
 }
 :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
 
 /* Labels share the form columns through subgrid */
-input, textarea, button { font: inherit; }
+input, textarea, button, select { font: inherit; }
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
 form {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
@@ -62,7 +69,7 @@ input, textarea {
   padding: 0.6em;
   border: 1px solid var(--color-border);
   border-radius: 0.25em;
-  background: white;
+  background: Canvas;
   color: inherit;
 }
 textarea { resize: vertical; }
@@ -71,7 +78,7 @@ form button {
   padding: 0.65em 1em;
   border: 0;
   border-radius: 0.25em;
-  background: var(--color-accent);
+  background: oklch(48% 0.12 305);
   color: white;
   cursor: pointer;
 }
@@ -96,7 +103,7 @@ form button:hover { background: oklch(40% 0.1 305); }
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 0.25em;
-  background: #f1edf5;
+  background: color-mix(in oklch, var(--color-accent), Canvas 90%);
 }
 
 /* Resume hierarchy and spacing */
@@ -113,7 +120,7 @@ form button:hover { background: oklch(40% 0.1 305); }
 .resume p { margin-block: 0.5em; }
 .resume ul { padding-left: 1.25em; }
 .resume li + li { margin-top: 0.4em; }
-.resume time { color: #65536a; font-size: 0.9em; font-weight: normal; }
+.resume time { color: color-mix(in oklch, CanvasText, Canvas 25%); font-size: 0.9em; font-weight: normal; }
 
 @media (max-width: 35em) {
   nav a { flex-basis: 30%; }
