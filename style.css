@@ -98,12 +98,94 @@ form button:hover { background: oklch(40% 0.1 305); }
   padding-bottom: 1em;
 }
 .projects h2, .projects p { margin: 0; }
+.projects h3 { margin: 0; }
 .projects img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 0.25em;
   background: color-mix(in oklch, var(--color-accent), Canvas 90%);
+}
+.project-details {
+  display: grid;
+  gap: 0.35em;
+}
+.project-year {
+  color: color-mix(in oklch, CanvasText, Canvas 35%);
+  font-family: Baskerville, Georgia, serif;
+  font-size: 0.9em;
+  font-variant-numeric: oldstyle-nums;
+}
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+#projects-pie-plot path {
+  cursor: pointer;
+  transition: 300ms;
+}
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-block: 1em 2em;
+}
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 0.75em 1em;
+  margin: 0;
+  padding: 1em;
+  border: 1px solid var(--color-border);
+  border-radius: 0.25em;
+  list-style: none;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+}
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  flex: 0 0 auto;
+  border-radius: 0.2em;
+  background: var(--color);
+}
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+.selected:is(path) {
+  fill: var(--color);
+}
+.searchBar {
+  margin-block: 0 2em;
+}
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5em 1em;
+  padding: 1em;
+  border: 1px solid var(--color-border);
+  border-radius: 0.25em;
+}
+#profile-stats dt {
+  grid-row: 1;
+  color: color-mix(in oklch, CanvasText, Canvas 30%);
+  font-size: 0.9em;
+}
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.75em;
+  font-weight: 700;
 }
 
 /* Resume hierarchy and spacing */
@@ -126,4 +208,8 @@ form button:hover { background: oklch(40% 0.1 305); }
   nav a { flex-basis: 30%; }
   form { grid-template-columns: minmax(0, 1fr); }
   form label { gap: 0.35em; }
+  .chart-container { flex-direction: column; align-items: stretch; }
+  #projects-pie-plot { align-self: center; }
+  #profile-stats dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #profile-stats dt, #profile-stats dd { grid-row: auto; }
 }

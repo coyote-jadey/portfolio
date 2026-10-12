@@ -4,6 +4,81 @@ function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
+export async function fetchJSON(url) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch JSON: ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching or parsing JSON data:', error);
+    return null;
+  }
+}
+
+export function renderProjects(projects, containerElement, headingLevel = 'h2') {
+  if (!containerElement) {
+    return;
+  }
+
+  containerElement.innerHTML = '';
+
+  if (!Array.isArray(projects) || projects.length === 0) {
+    containerElement.textContent = 'No projects to display yet.';
+    return;
+  }
+
+  const safeHeadingLevel = /^h[1-6]$/.test(headingLevel) ? headingLevel : 'h2';
+
+  for (let project of projects) {
+    let article = document.createElement('article');
+    let heading = document.createElement(safeHeadingLevel);
+
+    if (project.url) {
+      let link = document.createElement('a');
+      link.href = project.url;
+      link.textContent = project.title ?? 'Untitled project';
+      heading.append(link);
+    } else {
+      heading.textContent = project.title ?? 'Untitled project';
+    }
+
+    article.append(heading);
+
+    if (project.image) {
+      let image = document.createElement('img');
+      image.src = project.image;
+      image.alt = project.title ?? '';
+      article.append(image);
+    }
+
+    let details = document.createElement('div');
+    details.className = 'project-details';
+
+    let description = document.createElement('p');
+    description.textContent = project.description ?? '';
+    details.append(description);
+
+    if (project.year) {
+      let year = document.createElement('p');
+      year.className = 'project-year';
+      year.textContent = project.year;
+      details.append(year);
+    }
+
+    article.append(details);
+
+    containerElement.append(article);
+  }
+}
+
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
+
 const BASE_PATH =
   location.hostname === 'localhost' || location.hostname === '127.0.0.1'
     ? '/'
