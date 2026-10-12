@@ -39,7 +39,7 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
 
     if (project.url) {
       let link = document.createElement('a');
-      link.href = project.url;
+      link.href = new URL(project.url, import.meta.url).href;
       link.textContent = project.title ?? 'Untitled project';
       heading.append(link);
     } else {
@@ -50,7 +50,7 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
 
     if (project.image) {
       let image = document.createElement('img');
-      image.src = project.image;
+      image.src = new URL(project.image, import.meta.url).href;
       image.alt = project.title ?? '';
       article.append(image);
     }
