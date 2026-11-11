@@ -1,0 +1,45 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-labelledby="title desc">
+  <title id="title">Largest changes in abortion clinic counts</title>
+  <desc id="desc">States with the largest absolute changes in known clinic counts, 2017-2020.</desc>
+  <rect width="980" height="560" fill="#fbfaf7"/>
+  <text x="40" y="44" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#1c2833">Largest changes in abortion clinic counts</text>
+  <text x="40" y="70" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5a6673">States with the largest absolute changes in known clinic counts, 2017-2020.</text>
+  <line x1="560" x2="560" y1="92" y2="506" stroke="#8b949e" stroke-width="1"/>
+  <text x="40" y="122" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">California</text>
+  <rect x="560" y="105" width="350" height="23" rx="3" fill="#2f7f78"/>
+  <text x="918" y="122" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+12</text>
+  <text x="40" y="155" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">New York</text>
+  <rect x="297.5" y="138" width="262.5" height="23" rx="3" fill="#b44e5a"/>
+  <text x="261.5" y="155" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-9</text>
+  <text x="40" y="188" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Florida</text>
+  <rect x="355.8" y="171" width="204.2" height="23" rx="3" fill="#b44e5a"/>
+  <text x="319.8" y="188" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-7</text>
+  <text x="40" y="221" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Connecticut</text>
+  <rect x="385" y="204" width="175" height="23" rx="3" fill="#b44e5a"/>
+  <text x="349" y="221" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-6</text>
+  <text x="40" y="254" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Colorado</text>
+  <rect x="560" y="237" width="145.8" height="23" rx="3" fill="#2f7f78"/>
+  <text x="713.8" y="254" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+5</text>
+  <text x="40" y="287" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Illinois</text>
+  <rect x="560" y="270" width="145.8" height="23" rx="3" fill="#2f7f78"/>
+  <text x="713.8" y="287" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+5</text>
+  <text x="40" y="320" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">New Jersey</text>
+  <rect x="443.3" y="303" width="116.7" height="23" rx="3" fill="#b44e5a"/>
+  <text x="407.3" y="320" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-4</text>
+  <text x="40" y="353" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Michigan</text>
+  <rect x="560" y="336" width="87.5" height="23" rx="3" fill="#2f7f78"/>
+  <text x="655.5" y="353" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+3</text>
+  <text x="40" y="386" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Texas</text>
+  <rect x="560" y="369" width="87.5" height="23" rx="3" fill="#2f7f78"/>
+  <text x="655.5" y="386" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+3</text>
+  <text x="40" y="419" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Minnesota</text>
+  <rect x="560" y="402" width="87.5" height="23" rx="3" fill="#2f7f78"/>
+  <text x="655.5" y="419" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">+3</text>
+  <text x="40" y="452" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Washington</text>
+  <rect x="472.5" y="435" width="87.5" height="23" rx="3" fill="#b44e5a"/>
+  <text x="436.5" y="452" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-3</text>
+  <text x="40" y="485" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Massachusetts</text>
+  <rect x="501.7" y="468" width="58.3" height="23" rx="3" fill="#b44e5a"/>
+  <text x="465.7" y="485" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">-2</text>
+  <text x="210" y="530" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5a6673">Negative values indicate fewer clinics in 2020 than in 2017.</text>
+</svg>

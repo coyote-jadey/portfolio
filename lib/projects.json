@@ -13,16 +13,25 @@
     "description": "Project 2: two opposing visual arguments about gender equality in education, with design rationales and an ethical reflection."
   },
   {
-    "title": "A closer look at community data",
-    "year": "2025",
+    "title": "Project 3: Interactive visualization",
+    "year": "2026",
+    "url": "./projects/project-3/",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Placeholder project 3. This space will feature a future class assignment, including the question explored, the methods used, and the findings."
+    "description": "Project 3 starter: a D3-only interactive prototype for comparing possible datasets and planning the final visualization."
   },
   {
-    "title": "Mapping change over time",
-    "year": "2025",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Placeholder project 4. This space will feature a future class assignment, including the question explored, the methods used, and the findings."
+    "title": "Bikewatching",
+    "year": "2026",
+    "url": "./projects/bikewatching/",
+    "image": "./projects/bikewatching/assets/thumbnail.svg",
+    "description": "Lab 7 geospatial visualization of Boston-area Bluebikes station traffic with Mapbox, D3, bike lanes, station markers, time filtering, and flow colors."
+  },
+  {
+    "title": "Abortion Access and Travel Across U.S. States",
+    "year": "2026",
+    "url": "./projects/project-4/",
+    "image": "./projects/project-4/chart-out-of-state-travel.svg",
+    "description": "Static visualization proposal using Guttmacher Institute state abortion data to compare incidence, clinic access, and out-of-state travel for abortion care."
   },
   {
     "title": "Making sense of uncertainty",

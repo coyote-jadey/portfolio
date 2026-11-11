@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Static visualizations using Guttmacher Institute abortion data by U.S. state.">
+  <title>Abortion Access and Travel Across U.S. States | Jade-Pablo</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="report.css">
+  <script type="module" src="../../global.js"></script>
+</head>
+<body>
+<main id="main">
+  <header class="report-header">
+    <p class="eyebrow">DSC 209R / Static visualization proposal</p>
+    <h1>Abortion Access and Travel Across U.S. States</h1>
+    <dl class="project-meta">
+      <div>
+        <dt>Project Title</dt>
+        <dd>Abortion Access and Travel Across U.S. States</dd>
+      </div>
+      <div>
+        <dt>Dataset</dt>
+        <dd><a href="guttmacher-state-abortion-data.csv">Guttmacher Institute abortion data by state</a></dd>
+      </div>
+    </dl>
+    <nav class="contents" aria-label="Report sections">
+      <a href="#writeup">Writeup</a>
+      <a href="#visualizations">Visualizations</a>
+      <a href="#source">Source Notes</a>
+    </nav>
+  </header>
+
+  <section id="writeup" aria-labelledby="writeup-title">
+    <p class="eyebrow">01 / Brief writeup</p>
+    <h2 id="writeup-title">What I intend to do</h2>
+    <div class="writeup">
+      <p>I plan to use the Guttmacher state-level abortion dataset to compare how abortion incidence, provider availability, and travel burden varied across U.S. states before the Dobbs decision.</p>
+      <p>The main question is whether high abortion counts tell the same story as access measures such as clinic availability and the share of residents traveling out of state for care.</p>
+      <p>I will separate measures based on state of occurrence from measures based on state of residence, because those two views can point to different access patterns.</p>
+      <p>The visualizations focus on rankings, rate comparisons, and changes in clinic counts from 2017 to 2020.</p>
+      <p>Because the dataset combines counts, percentages, rates, and historical public funding measures, I will avoid treating every column as directly comparable.</p>
+      <p>The intended final story is about uneven geographic access: where abortions happened, where residents lived, and where travel became part of the care pathway.</p>
+    </div>
+  </section>
+
+  <section id="visualizations" aria-labelledby="visualizations-title">
+    <p class="eyebrow">02 / Static visualizations</p>
+    <h2 id="visualizations-title">Six starting views of the dataset</h2>
+    <div class="viz-grid">
+      <figure>
+        <a href="chart-abortions-occurrence.svg"><img src="chart-abortions-occurrence.svg" alt="Horizontal bar chart showing California, New York, Florida, Illinois, and other states with the highest abortion counts by state of occurrence in 2020."></a>
+        <figcaption>State of occurrence shows where abortions were provided, not necessarily where patients lived.</figcaption>
+      </figure>
+      <figure>
+        <a href="chart-residence-rate.svg"><img src="chart-residence-rate.svg" alt="Horizontal bar chart showing states with the highest abortion rate per 1,000 women aged 15 to 44 by state of residence in 2020."></a>
+        <figcaption>Residence-based rates normalize by population and shift attention from total volume to relative incidence.</figcaption>
+      </figure>
+      <figure>
+        <a href="chart-out-of-state-travel.svg"><img src="chart-out-of-state-travel.svg" alt="Horizontal bar chart showing states where the highest share of residents traveled out of state for abortion care in 2020."></a>
+        <figcaption>Travel percentages highlight cross-state care patterns that raw abortion counts can hide.</figcaption>
+      </figure>
+      <figure>
+        <a href="chart-without-clinic.svg"><img src="chart-without-clinic.svg" alt="Horizontal bar chart showing states with the largest share of women aged 15 to 44 living in counties without an abortion clinic in 2020."></a>
+        <figcaption>County-level clinic access reveals in-state distance and availability barriers.</figcaption>
+      </figure>
+      <figure>
+        <a href="chart-clinic-change.svg"><img src="chart-clinic-change.svg" alt="Diverging bar chart showing states with the largest gains and losses in abortion clinic counts from 2017 to 2020."></a>
+        <figcaption>Clinic counts changed unevenly from 2017 to 2020, with some states gaining clinics and others losing them.</figcaption>
+      </figure>
+      <figure>
+        <a href="chart-rate-vs-travel.svg"><img src="chart-rate-vs-travel.svg" alt="Scatter plot comparing abortion rate by residence with the share of residents traveling out of state for abortion care."></a>
+        <figcaption>The scatter plot checks whether higher residence rates also correspond to more out-of-state travel.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="source" class="method" aria-labelledby="source-title">
+    <p class="eyebrow">03 / Source notes</p>
+    <h2 id="source-title">Dataset handling</h2>
+    <p>The source workbook is <cite>GuttmacherInstituteAbortionDataByState.xlsx</cite>. I exported the state sheet to <a href="guttmacher-state-abortion-data.csv">CSV</a> and generated each chart as a static SVG.</p>
+    <p>Measures come from different years in the workbook, including 2014 provider access, 2017 teen abortion rates, 2017-2020 clinic changes, and 2020 abortion incidence. The charts label the year used so the views are not read as one single time snapshot.</p>
+  </section>
+</main>
+<footer><a href="../">Back to projects</a><span>Jade-Pablo · DSC 209R</span></footer>
+</body>
+</html>

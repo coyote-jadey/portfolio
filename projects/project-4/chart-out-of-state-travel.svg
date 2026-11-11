@@ -1,0 +1,48 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Residents traveling out of state for abortion care</title>
+  <desc id="desc">Top 10 states by share of residents who crossed state lines for care in 2020.</desc>
+  <rect width="980" height="520" fill="#fbfaf7"/>
+  <text x="40" y="44" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#1c2833">Residents traveling out of state for abortion care</text>
+  <text x="40" y="70" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5a6673">Top 10 states by share of residents who crossed state lines for care in 2020.</text>
+  <text x="40" y="123" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Missouri</text>
+  <rect x="210" y="105" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="105" width="700" height="25" rx="3" fill="#8f5f39"/>
+  <text x="918" y="123" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">99%</text>
+  <text x="40" y="160" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Wyoming</text>
+  <rect x="210" y="142" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="142" width="622.2" height="25" rx="3" fill="#8f5f39"/>
+  <text x="840.2" y="160" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">88%</text>
+  <text x="40" y="197" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">South Dakota</text>
+  <rect x="210" y="179" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="179" width="593.9" height="25" rx="3" fill="#8f5f39"/>
+  <text x="811.9" y="197" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">84%</text>
+  <text x="40" y="234" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">South Carolina</text>
+  <rect x="210" y="216" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="216" width="403" height="25" rx="3" fill="#8f5f39"/>
+  <text x="621" y="234" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">57%</text>
+  <text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">West Virginia</text>
+  <rect x="210" y="253" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="253" width="367.7" height="25" rx="3" fill="#8f5f39"/>
+  <text x="585.7" y="271" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">52%</text>
+  <text x="40" y="308" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Alabama</text>
+  <rect x="210" y="290" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="290" width="332.3" height="25" rx="3" fill="#8f5f39"/>
+  <text x="550.3" y="308" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">47%</text>
+  <text x="40" y="345" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">District of Columbia</text>
+  <rect x="210" y="327" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="327" width="318.2" height="25" rx="3" fill="#8f5f39"/>
+  <text x="536.2" y="345" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">45%</text>
+  <text x="40" y="382" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Mississippi</text>
+  <rect x="210" y="364" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="364" width="311.1" height="25" rx="3" fill="#8f5f39"/>
+  <text x="529.1" y="382" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">44%</text>
+  <text x="40" y="419" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Delaware</text>
+  <rect x="210" y="401" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="401" width="311.1" height="25" rx="3" fill="#8f5f39"/>
+  <text x="529.1" y="419" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">44%</text>
+  <text x="40" y="456" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Kentucky</text>
+  <rect x="210" y="438" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="438" width="275.8" height="25" rx="3" fill="#8f5f39"/>
+  <text x="493.8" y="456" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">39%</text>
+  <text x="210" y="490" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5a6673">Source: Guttmacher Institute state abortion data workbook</text>
+</svg>

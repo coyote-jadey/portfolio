@@ -1,0 +1,81 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-labelledby="title desc">
+  <title id="title">Rate and travel tell different access stories</title>
+  <desc id="desc">Each circle is a state; circle size reflects number of resident abortions in 2020.</desc>
+  <rect width="980" height="560" fill="#fbfaf7"/>
+  <text x="40" y="44" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#1c2833">Rate and travel tell different access stories</text>
+  <text x="40" y="70" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5a6673">Each circle is a state; circle size reflects number of resident abortions in 2020.</text>
+  <rect x="82" y="100" width="854" height="382" fill="#fffefa" stroke="#d8d1c7"/>
+  <line x1="82" x2="82" y1="100" y2="482" stroke="#eee7dc"/>
+  <line x1="82" x2="936" y1="100" y2="100" stroke="#eee7dc"/>
+  <text x="76" y="506" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">0</text>
+  <text x="36" y="104" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">99%</text>
+  <line x1="295.5" x2="295.5" y1="100" y2="482" stroke="#eee7dc"/>
+  <line x1="82" x2="936" y1="195.5" y2="195.5" stroke="#eee7dc"/>
+  <text x="289.5" y="506" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">7</text>
+  <text x="36" y="199.5" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">74%</text>
+  <line x1="509" x2="509" y1="100" y2="482" stroke="#eee7dc"/>
+  <line x1="82" x2="936" y1="291" y2="291" stroke="#eee7dc"/>
+  <text x="503" y="506" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">14</text>
+  <text x="36" y="295" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">50%</text>
+  <line x1="722.5" x2="722.5" y1="100" y2="482" stroke="#eee7dc"/>
+  <line x1="82" x2="936" y1="386.5" y2="386.5" stroke="#eee7dc"/>
+  <text x="716.5" y="506" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">22</text>
+  <text x="36" y="390.5" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">25%</text>
+  <line x1="936" x2="936" y1="100" y2="482" stroke="#eee7dc"/>
+  <line x1="82" x2="936" y1="482" y2="482" stroke="#eee7dc"/>
+  <text x="930" y="506" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">29</text>
+  <text x="36" y="486" font-family="Inter, Arial, sans-serif" font-size="11" fill="#5a6673">0%</text>
+  <circle cx="362.726643598616" cy="300.646464646465" r="5" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Alabama</title></circle>
+  <circle cx="353.861591695502" cy="454.989898989899" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Alaska</title></circle>
+  <circle cx="368.636678200692" cy="458.848484848485" r="7" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Arizona</title></circle>
+  <circle cx="312.491349480969" cy="339.232323232323" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Arkansas</title></circle>
+  <circle cx="643.453287197232" cy="482" r="15" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>California</title></circle>
+  <circle cx="374.546712802768" cy="478.141414141414" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Colorado</title></circle>
+  <circle cx="587.307958477509" cy="458.848484848485" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Connecticut</title></circle>
+  <circle cx="548.892733564014" cy="312.222222222222" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Delaware</title></circle>
+  <circle cx="853.259515570934" cy="308.363636363636" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>District of Columbia</title></circle>
+  <circle cx="637.543252595156" cy="478.141414141414" r="15" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Florida</title></circle>
+  <circle cx="572.532871972318" cy="462.707070707071" r="11" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Georgia</title></circle>
+  <circle cx="439.557093425606" cy="474.282828282828" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Hawaii</title></circle>
+  <circle cx="259.301038062284" cy="381.676767676768" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Idaho</title></circle>
+  <circle cx="587.307958477509" cy="478.141414141414" r="11" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Illinois</title></circle>
+  <circle cx="324.311418685121" cy="362.383838383838" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Indiana</title></circle>
+  <circle cx="256.346020761246" cy="435.69696969697" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Iowa</title></circle>
+  <circle cx="297.716262975779" cy="466.565656565657" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Kansas</title></circle>
+  <circle cx="279.98615916955" cy="331.515151515152" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Kentucky</title></circle>
+  <circle cx="330.221453287197" cy="400.969696969697" r="5" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Louisiana</title></circle>
+  <circle cx="380.456747404844" cy="462.707070707071" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Maine</title></circle>
+  <circle cx="817.799307958477" cy="416.40404040404" r="10" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Maryland</title></circle>
+  <circle cx="451.377162629758" cy="458.848484848485" r="7" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Massachusetts</title></circle>
+  <circle cx="557.757785467128" cy="478.141414141414" r="10" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Michigan</title></circle>
+  <circle cx="362.726643598616" cy="470.424242424242" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Minnesota</title></circle>
+  <circle cx="374.546712802768" cy="312.222222222222" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Mississippi</title></circle>
+  <circle cx="374.546712802768" cy="100" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Missouri</title></circle>
+  <circle cx="306.581314878893" cy="470.424242424242" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Montana</title></circle>
+  <circle cx="241.570934256055" cy="451.131313131313" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Nebraska</title></circle>
+  <circle cx="605.038062283737" cy="466.565656565657" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Nevada</title></circle>
+  <circle cx="339.086505190311" cy="393.252525252525" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>New Hampshire</title></circle>
+  <circle cx="936" cy="458.848484848485" r="12" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>New Jersey</title></circle>
+  <circle cx="374.546712802768" cy="451.131313131313" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>New Mexico</title></circle>
+  <circle cx="897.584775086505" cy="478.141414141414" r="15" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>New York</title></circle>
+  <circle cx="466.152249134948" cy="474.282828282828" r="9" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>North Carolina</title></circle>
+  <circle cx="271.121107266436" cy="431.838383838384" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>North Dakota</title></circle>
+  <circle cx="374.546712802768" cy="443.414141414141" r="8" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Ohio</title></circle>
+  <circle cx="398.186851211073" cy="462.707070707071" r="5" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Oklahoma</title></circle>
+  <circle cx="368.636678200692" cy="462.707070707071" r="5" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Oregon</title></circle>
+  <circle cx="516.387543252595" cy="427.979797979798" r="10" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Pennsylvania</title></circle>
+  <circle cx="483.882352941176" cy="416.40404040404" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Rhode Island</title></circle>
+  <circle cx="433.647058823529" cy="262.060606060606" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>South Carolina</title></circle>
+  <circle cx="203.155709342561" cy="157.878787878788" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>South Dakota</title></circle>
+  <circle cx="312.491349480969" cy="393.252525252525" r="6" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Tennessee</title></circle>
+  <circle cx="380.456747404844" cy="451.131313131313" r="14" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Texas</title></circle>
+  <circle cx="214.975778546713" cy="451.131313131313" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Utah</title></circle>
+  <circle cx="362.726643598616" cy="454.989898989899" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Vermont</title></circle>
+  <circle cx="489.792387543253" cy="385.535353535354" r="8" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Virginia</title></circle>
+  <circle cx="424.782006920415" cy="462.707070707071" r="7" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Washington</title></circle>
+  <circle cx="250.43598615917" cy="281.353535353535" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>West Virginia</title></circle>
+  <circle cx="306.581314878893" cy="416.40404040404" r="5" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Wisconsin</title></circle>
+  <circle cx="271.121107266436" cy="142.444444444444" r="4" fill="#2f7f78" fill-opacity="0.72" stroke="#1f5f59" stroke-width="1"><title>Wyoming</title></circle>
+  <text x="352" y="534" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Residence abortion rate per 1,000 women aged 15-44</text>
+  <text x="18" y="330" transform="rotate(-90 18 330)" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">% traveling out of state</text>
+</svg>

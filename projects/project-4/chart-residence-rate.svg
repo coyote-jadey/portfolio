@@ -1,0 +1,48 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Highest abortion rates by residence</title>
+  <desc id="desc">Top 10 states by abortions per 1,000 women aged 15-44, state of residence, 2020.</desc>
+  <rect width="980" height="520" fill="#fbfaf7"/>
+  <text x="40" y="44" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#1c2833">Highest abortion rates by residence</text>
+  <text x="40" y="70" font-family="Inter, Arial, sans-serif" font-size="13" fill="#5a6673">Top 10 states by abortions per 1,000 women aged 15-44, state of residence, 2020.</text>
+  <text x="40" y="123" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">New Jersey</text>
+  <rect x="210" y="105" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="105" width="700" height="25" rx="3" fill="#2f7f78"/>
+  <text x="918" y="123" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">28.9</text>
+  <text x="40" y="160" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">New York</text>
+  <rect x="210" y="142" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="142" width="668.5" height="25" rx="3" fill="#2f7f78"/>
+  <text x="886.5" y="160" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">27.6</text>
+  <text x="40" y="197" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">District of Columbia</text>
+  <rect x="210" y="179" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="179" width="632.2" height="25" rx="3" fill="#2f7f78"/>
+  <text x="850.2" y="197" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">26.1</text>
+  <text x="40" y="234" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Maryland</text>
+  <rect x="210" y="216" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="216" width="603.1" height="25" rx="3" fill="#2f7f78"/>
+  <text x="821.1" y="234" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">24.9</text>
+  <text x="40" y="271" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">California</text>
+  <rect x="210" y="253" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="253" width="460.2" height="25" rx="3" fill="#2f7f78"/>
+  <text x="678.2" y="271" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">19.0</text>
+  <text x="40" y="308" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Florida</text>
+  <rect x="210" y="290" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="290" width="455.4" height="25" rx="3" fill="#2f7f78"/>
+  <text x="673.4" y="308" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">18.8</text>
+  <text x="40" y="345" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Nevada</text>
+  <rect x="210" y="327" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="327" width="428.7" height="25" rx="3" fill="#2f7f78"/>
+  <text x="646.7" y="345" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">17.7</text>
+  <text x="40" y="382" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Illinois</text>
+  <rect x="210" y="364" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="364" width="414.2" height="25" rx="3" fill="#2f7f78"/>
+  <text x="632.2" y="382" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">17.1</text>
+  <text x="40" y="419" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Connecticut</text>
+  <rect x="210" y="401" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="401" width="414.2" height="25" rx="3" fill="#2f7f78"/>
+  <text x="632.2" y="419" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">17.1</text>
+  <text x="40" y="456" font-family="Inter, Arial, sans-serif" font-size="13" fill="#1c2833">Georgia</text>
+  <rect x="210" y="438" width="700" height="25" rx="3" fill="#ece7de"/>
+  <rect x="210" y="438" width="402.1" height="25" rx="3" fill="#2f7f78"/>
+  <text x="620.1" y="456" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">16.6</text>
+  <text x="210" y="490" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5a6673">Source: Guttmacher Institute state abortion data workbook</text>
+</svg>
